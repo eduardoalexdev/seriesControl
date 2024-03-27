@@ -2,7 +2,7 @@
     <a href="/series/create">Create a new Serie</a>
     <ul>
         @foreach ($series as $serie)
-            <li>{{ $serie }}</li>
+            <li>{{ $serie->name }}</li>
         @endforeach
     </ul>
 </x-layout>
